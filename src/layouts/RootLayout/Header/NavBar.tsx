@@ -1,16 +1,16 @@
 import styled from "@emotion/styled"
 import Link from "next/link"
+import { MdOutlineContacts } from "react-icons/md"
 
 const NavBar: React.FC = () => {
-  const links = [{ id: 1, name: "About", to: "/about" }]
   return (
     <StyledWrapper className="">
       <ul>
-        {links.map((link) => (
-          <li key={link.id}>
-            <Link href={link.to}>{link.name}</Link>
-          </li>
-        ))}
+        <li>
+          <Link href={"/about"}>
+            <MdOutlineContacts className="icon" />
+          </Link>
+        </li>
       </ul>
     </StyledWrapper>
   )
