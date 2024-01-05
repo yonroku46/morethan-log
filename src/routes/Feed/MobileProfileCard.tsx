@@ -42,9 +42,6 @@ const StyledWrapper = styled.div`
   > .top {
     padding: 0.25rem;
     margin-bottom: 0.75rem;
-    > img {
-      padding: 0 10%;
-    }
   }
   > .mid {
     padding: 0.5rem;
@@ -63,6 +60,9 @@ const StyledWrapper = styled.div`
           line-height: 1.75rem;
           font-style: italic;
           font-weight: 700;
+          > img {
+            padding: 0 10%;
+          }
         }
         > .mid {
           margin-bottom: 0.5rem;

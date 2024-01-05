@@ -1,7 +1,10 @@
 import styled from "@emotion/styled"
 import React from "react"
-import { Emoji } from "src/components/Emoji"
 import useScheme from "src/hooks/useScheme"
+import {
+  CiLight,
+  CiDark
+} from "react-icons/ai"
 
 type Props = {}
 
@@ -14,7 +17,7 @@ const ThemeToggle: React.FC<Props> = () => {
 
   return (
     <StyledWrapper onClick={handleClick}>
-      <Emoji>{scheme === "light" ? "☀️" : "🌙"}</Emoji>
+      {scheme === "light" ? <CiLight className="icon" /> : <CiDark className="icon" />}
     </StyledWrapper>
   )
 }
