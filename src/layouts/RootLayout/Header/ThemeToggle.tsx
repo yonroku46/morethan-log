@@ -1,10 +1,7 @@
 import styled from "@emotion/styled"
 import React from "react"
 import useScheme from "src/hooks/useScheme"
-import {
-  CiLight,
-  CiDark
-} from "react-icons/ai"
+import { CiLight, CiDark } from "react-icons/ci";
 
 type Props = {}
 
