@@ -1,7 +1,7 @@
 import styled from "@emotion/styled"
 import React from "react"
 import useScheme from "src/hooks/useScheme"
-import { CiLight, CiDark } from "react-icons/ci";
+import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 
 type Props = {}
 
@@ -14,7 +14,7 @@ const ThemeToggle: React.FC<Props> = () => {
 
   return (
     <StyledWrapper onClick={handleClick}>
-      {scheme === "light" ? <CiLight className="icon" /> : <CiDark className="icon" />}
+      {scheme === "light" ? <MdOutlineLightMode className="icon" /> : <MdOutlineDarkMode className="icon" />}
     </StyledWrapper>
   )
 }
