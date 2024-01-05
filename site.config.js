@@ -23,7 +23,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "4Log",
-    description: "technology blog",
+    description: "나의 개발메모장",
   },
 
   // CONFIG configration (required)

@@ -14,7 +14,7 @@ const ServiceCard: React.FC = () => {
             key={idx}
             href={`${project.href}`}
             rel="noreferrer"
-            target="_blank"
+            target={project.name === 'About' ? "_self" : "_blank"}
           >
             {project.name === 'About' ?
               <AiFillAliwangwang className="icon" />
