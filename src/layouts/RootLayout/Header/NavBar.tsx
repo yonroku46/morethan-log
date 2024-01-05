@@ -1,6 +1,5 @@
 import styled from "@emotion/styled"
 import Link from "next/link"
-import { MdOutlinePersonOutline } from "react-icons/md"
 
 const NavBar: React.FC = () => {
   return (
@@ -8,7 +7,7 @@ const NavBar: React.FC = () => {
       <ul>
         <li>
           <Link href={"/about"}>
-            <MdOutlinePersonOutline className="icon" />
+            About
           </Link>
         </li>
       </ul>

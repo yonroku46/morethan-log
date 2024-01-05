@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "H.Youngrok",
-    image: "/profile.webp",
+    image: "/profile.svg",
     role: "Web Engineer",
     bio: "",
     email: "yr9601@gmail.com",
@@ -11,6 +11,10 @@ const CONFIG = {
     instagram: "yonroku46",
   },
   projects: [
+    {
+      name: `About`,
+      href: "https://yonroku46.vercel.app/about",
+    },
     {
       name: `Portfolio`,
       href: "https://dad-labo.com",
