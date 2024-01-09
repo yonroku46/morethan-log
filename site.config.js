@@ -2,15 +2,18 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "H.Youngrok",
-    image: "/profile.webp",
+    image: "/profile.svg",
     role: "Web Engineer",
     bio: "",
     email: "yr9601@gmail.com",
-    linkedin: "yonroku46",
     github: "yonroku46",
     instagram: "yonroku46",
   },
   projects: [
+    {
+      name: `About`,
+      href: "https://yonroku46.vercel.app/about",
+    },
     {
       name: `Portfolio`,
       href: "https://dad-labo.com",
@@ -19,7 +22,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "4Log",
-    description: "technology blog",
+    description: "나의 개발메모장",
   },
 
   // CONFIG configration (required)

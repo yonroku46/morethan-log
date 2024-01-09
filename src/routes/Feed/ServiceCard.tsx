@@ -1,6 +1,6 @@
 import { CONFIG } from "site.config"
 import React from "react"
-import { AiFillCodeSandboxCircle } from "react-icons/ai"
+import { AiFillAliwangwang, AiFillCodeSandboxCircle } from "react-icons/ai"
 import styled from "@emotion/styled"
 import { Emoji } from "src/components/Emoji"
 
@@ -14,10 +14,14 @@ const ServiceCard: React.FC = () => {
             key={idx}
             href={`${project.href}`}
             rel="noreferrer"
-            target="_blank"
+            target={project.name === 'About' ? "_self" : "_blank"}
           >
-            <AiFillCodeSandboxCircle className="icon" />
-            <div className="name">{CONFIG.projects[0].name}</div>
+            {project.name === 'About' ?
+              <AiFillAliwangwang className="icon" />
+              :
+              <AiFillCodeSandboxCircle className="icon" />
+            }
+            <div className="name">{project.name}</div>
           </a>
         ))}
       </StyledWrapper>

@@ -49,9 +49,6 @@ const StyledWrapper = styled.div`
         display: block;
         padding-bottom: 100%;
       }
-      > img {
-        padding: 0 10%;
-      }
     }
     .mid {
       display: flex;
