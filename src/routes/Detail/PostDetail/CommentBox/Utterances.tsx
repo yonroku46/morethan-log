@@ -48,13 +48,6 @@ export default Utterances
 const StyledWrapper = styled.div`
   .utterances {
     max-width: 100%; !important;
-    > .timeline-header {
-      color: red;
-      > em {
-        color: blue;
-        display: none;
-      }
-    }
   }
   @media (min-width: 768px) {
     margin-left: -4rem;
