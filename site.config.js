@@ -16,7 +16,7 @@ const CONFIG = {
     },
     {
       name: `Portfolio`,
-      href: "https://dad-labo.com",
+      href: "https://smoothilab.com",
     },
   ],
   // blog setting (required)
